@@ -75,6 +75,11 @@ class WSRequestHandler {
 		RpcResponse DeleteSceneItem(const RpcRequest&);
 		RpcResponse ReorderSceneItems(const RpcRequest&);
 
+		RpcResponse CreateNewSource(const RpcRequest&);
+		RpcResponse CreateNewScene(const RpcRequest&);
+		RpcResponse AddActiveChild(const RpcRequest&);
+		RpcResponse AddToScene(const RpcRequest&);
+
 		RpcResponse GetStreamingStatus(const RpcRequest&);
 		RpcResponse StartStopStreaming(const RpcRequest&);
 		RpcResponse StartStopRecording(const RpcRequest&);

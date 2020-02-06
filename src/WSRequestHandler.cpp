@@ -58,6 +58,11 @@ const QHash<QString, RpcMethodHandler> WSRequestHandler::messageMap {
 	{ "DuplicateSceneItem", &WSRequestHandler::DuplicateSceneItem },
 	{ "ReorderSceneItems", &WSRequestHandler::ReorderSceneItems },
 
+	{ "CreateNewSource", &WSRequestHandler::CreateNewSource },
+	{ "CreateNewScene", &WSRequestHandler::CreateNewScene },
+	{ "AddActiveChild", &WSRequestHandler::AddActiveChild },
+	{ "AddToScene", &WSRequestHandler::AddToScene },
+
 	{ "GetStreamingStatus", &WSRequestHandler::GetStreamingStatus },
 	{ "StartStopStreaming", &WSRequestHandler::StartStopStreaming },
 	{ "StartStopRecording", &WSRequestHandler::StartStopRecording },

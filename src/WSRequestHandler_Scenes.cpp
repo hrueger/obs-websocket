@@ -148,3 +148,4 @@ RpcResponse WSRequestHandler::ReorderSceneItems(const RpcRequest& request) {
 
 	return request.success();
 }
+
